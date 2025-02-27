@@ -1,0 +1,25 @@
+{
+  "name": "mcp-client-ts",
+  "version": "1.0.0",
+  "description": "Model Context Protocol client implementation in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "@types/node": "^20.17.19",
+    "dotenv": "^16.4.7",
+    "openai": "^4.85.4",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+} 
